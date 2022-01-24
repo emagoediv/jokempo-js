@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pedra, papel ou tesoura?</title>
+</head>
+<body>
+    <div class="title">
+        <h1></h1>
+        <label for="">Pontos:</label>
+    </div>
+    <div class="container">
+
+        <div class="player">
+            <h3 id="pontosPlayer">0</h3>
+            <img id="pedra" src="/images/pedra.png" alt="">
+            <img id="papel" src="/images/papel.png" alt="">
+            <img id="tesoura" src="/images/tesoura.png" alt="">
+        </div>
+
+        <div class="bot">
+            <h3 id="pontosBot">0</h3>
+            <img id="bot" src="/images/pedra.png" style="transform: rotate(180deg);">
+            <label id="msgBot" for="">Aguardando...</label>
+        </div>
+
+        
+
+    </div>
+
+    <div class="msg">
+        <label id="status" for=""></label>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
