@@ -40,13 +40,13 @@ function selecionadoDoBot(){
 
 function mudarImagemDoBot(valorSelecionadoDoBot) {
     if(valorSelecionadoDoBot == 1) {
-        bot.src = "../images/pedra.png"
+        bot.setAttribute("src","images/pedra.png") 
         msgBot.innerHTML = "pedra"
     }else if(valorSelecionadoDoBot == 2) {
-        bot.src = "../images/papel.png"
+        bot.setAttribute("src","images/papel.png") 
         msgBot.innerHTML = "papel"
     }else {
-        bot.src = "../images/tesoura.png"
+        bot.setAttribute("src","images/tesoura.png")
         msgBot.innerHTML = "tesoura"
     }
 }
